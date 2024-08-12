@@ -1,4 +1,4 @@
-1. **Install Eclipse IDE**
+**Install Eclipse IDE**
    
    Download Eclipse IDE:
 Go to the Eclipse Downloads page.
