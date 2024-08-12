@@ -13,15 +13,18 @@ On the first launch, Eclipse will prompt you to select a workspace directory. Th
 Choose a location and click Launch.
 
 **Install Maven**
+
    **Check Maven Installation (Optional):**
        Open a command prompt or terminal and type mvn -version to check if Maven is already installed.
+       
    **Download Maven:**
         Go to the Apache Maven Download page.
         Download the binary zip file for your operating system.
-    **Install Maven:**
+        
+   Install Maven:
        Extract the downloaded Maven zip file to a directory of your choice.
       Add the Maven bin directory to your system's PATH environment variable:
-   ** Windows:**
+   Windows:
       Right-click This PC > Properties > Advanced system settings > Environment Variables.
       Under System variables, select Path and click Edit.
       Add the path to the Maven bin directory.
@@ -35,9 +38,9 @@ Choose a location and click Launch.
         Add the path to the WebDriver executable to your system's PATH environment variable using the same steps as for Maven.
         
 **Configure WebDriver in Eclipse**
-    ** Create a New Java Project:**
+    Create a New Java Project:
          Open Eclipse and create a new Java project.
-   ** Add WebDriver to the Project:**
+   Add WebDriver to the Project:
           Right-click on your project > Build Path > Add External Archives.
           Select the WebDriver JAR files you want to use.
     Use Maven in Your Project:
